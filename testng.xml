@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/tmehta/Desktop/PHPTravels">
+        <classes>
+            <class name="footerTest.TestingFooter">
+                <methods>
+                    <include name="copyRightCheck"/>
+                    <include name="socialMediaLinks"/>
+                </methods>
+            </class>
+            <class name="likeAndViews.LikesAndCount">
+                <methods>
+                    <include name="openLastPost"/>
+                    <include name="lastPostOperations"/>
+                </methods>
+            </class>
+            <class name="registerAndLogin.RegisterLogin">
+                <methods>
+                    <include name="register"/>
+                    <include name="changePassword"/>
+                    <include name="logout"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
